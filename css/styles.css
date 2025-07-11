@@ -1,0 +1,126 @@
+/* general h1 h2 h3 body list link logo */
+.site {
+    background-color: white;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-one {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.header-two {
+    color: #2E2F42;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.skils .header-two {
+    line-height: 1.2;
+}
+.portfolio .header-two,
+.team .header-two {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+.header-three {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+
+.link {
+    color: #434455;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 4%;
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.site .top-line .menu .logo .top-logo {
+    color: #2E2F42;
+}
+.site .down-line .logo .down-logo {
+    color: #F4F4FD;
+}
+/* top-line*/
+.site .top-line .menu .list .link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.site .top-line .conect .list .link {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+.site .top-line .menu .list .link:focus,
+.site .top-line .conect .list .link:focus,
+.site .top-line .conect .list .link:hover,
+.site .top-line .menu .list .link:hover {
+    color: #404BBF;
+}
+/*service*/
+.site .site-inform .service {
+    background-color: #2E2F42;
+    color: white;
+}
+.site .site-inform .service .button-text {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.site .site-inform .service .button-text:focus,
+.site .site-inform .service .button-text:hover {
+    background-color: #404BBF;
+}
+/*team*/
+.site .site-inform .team {
+    background-color: #F4F4FD;
+}
+.site .site-inform .team .list .card {
+    background-color: white;
+}
+/*down-line*/
+.site .down-line {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+
+
+
+
