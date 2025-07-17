@@ -87,8 +87,7 @@
 }
 .site .top-line .container{
     display: flex;
-    gap: 332px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-basis: calc((100%-332px)/2);
 }
