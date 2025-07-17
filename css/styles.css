@@ -76,6 +76,8 @@
 }
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* top-line*/
@@ -96,7 +98,7 @@
     flex-basis: calc((100%-76px)/2);
     align-items: center;
 }
-.site .top-line .container .menu .logo{
+.site .top-line .container .menu .logo {
     margin-right: 76px;
 }
 .site .top-line .container .menu .list .link{
@@ -138,7 +140,7 @@
 /*service*/
 .site .site-inform .service {
     background-color: #2E2F42;
-    padding: 188px 156px;
+    padding: 188px 0;
 }
 .site .site-inform .service .container{
     color: white;
@@ -271,7 +273,7 @@
     margin-bottom: 16px;
 }
 .site .down-line .container {
-    padding-left: 156px;
+    margin-left: 156px;
 }
 .site .down-line .container .p-text {
     max-width: 264px;
