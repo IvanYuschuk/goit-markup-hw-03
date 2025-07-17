@@ -74,15 +74,14 @@
 .site .down-line .logo .down-logo {
     color: #F4F4FD;
 }
-/*.container {
+.container {
     width: 1158px;
-    padding: 0 15px;
 }
-*/
+
 /* top-line*/
 .site .top-line {
     border-bottom: #E7E9FC solid 1px;
-    padding: 24px 0;
+    padding: 24px 156px;
 }
 .site .top-line .container{
     display: flex;
@@ -139,8 +138,7 @@
 /*service*/
 .site .site-inform .service {
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 156px;
 }
 .site .site-inform .service .container{
     color: white;
@@ -206,6 +204,9 @@
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.site .site-inform .team .container {
+    margin: 0 156px;
+}
 .site .site-inform .team .container .header-two {
     margin-bottom: 72px;
 }
@@ -215,7 +216,7 @@
     justify-content: center;
 }
 .site .site-inform .team .container .list .card {
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
     background-color: white;
     text-align: center;
     border-bottom-left-radius: 4px;
