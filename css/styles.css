@@ -159,7 +159,7 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     height: 56px;
-    min-width: 159px;
+    min-width: 169px;
     border: none;
     border-radius: 4px;
 }
@@ -217,7 +217,6 @@
 .site .site-inform .team .container .list .card {
     flex-basis: calc((100%-72px)/4);
     background-color: white;
-    padding-bottom: 32px;
     text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -227,7 +226,7 @@
     padding: 32px 0;
     
 }
-.site .site-inform .team .container .list .card .card-text {
+.site .site-inform .team .container .list .card .header-three {
     margin-bottom: 8px;
 }
 /*portfolio*/
